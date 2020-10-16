@@ -53,7 +53,7 @@ const Login = () => {
                     <h5>Password</h5>
                     <input type='password' value={password} onChange={e => setPassword(e.target.value)} />
 
-                    <button type='submit' className='login__signInButton'>Sign In</button>
+                    <button type='submit' className='login__signInButton' onClick={signIn}>Sign In</button>
                 </form>
 
                 <p>
@@ -61,7 +61,7 @@ const Login = () => {
                     see our Privacy Notice, our Cookies Notice and our Interest-Based Ads Notice.
                 </p>
 
-                <button className='login__registerButton'>Create your Amazon Account</button>
+                <button className='login__registerButton' onClick={register}>Create your Amazon Account</button>
             </div>
         </div>
     )

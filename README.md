@@ -1,6 +1,8 @@
 # Amazon Clone
 
-An E-Commerce solution done with React
+An E-Commerce solution done with React*
+
+\* Work in progress...
 
 ## Available Scripts
 

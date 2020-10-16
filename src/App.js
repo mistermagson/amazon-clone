@@ -5,6 +5,9 @@ import Home from "./Home";
 import Header from "./Header";
 import Login from "./Login";
 import {auth} from "./firebase-config"
+import Checkout from "./Checkout";
+import Subtotal from "./Subtotal";
+import CheckoutProduct from "./CheckoutProduct";
 
 const App = () => {
 
@@ -37,6 +40,11 @@ const App = () => {
             <Switch>
                 <Route path="/login">
                     <Login />
+                </Route>
+                <Route path="/checkout">
+                    <Header />
+                    <Checkout />
+
                 </Route>
                 <Route path="/">
                     <Header />
